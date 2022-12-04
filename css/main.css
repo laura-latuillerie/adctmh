@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(./links.css);
+@import url(./buttons.css);
+@import url(./navbar.css);
+@import url(./pictures.css);
+@import url(./cards.css);
+@import url(./sections.css);
+@import url(./fonts.css);
+@import url(./modal.css);
+
+:root{
+  --main-light : #FBF5F3;
+  --main-blue: #1D2769;
+  --main-pink: #D782BA;
+  --title-font: 'Montserrat', sans-serif;
+  --body-font: 'Nunito', sans-serif;
+  --body-test-font: 'Nunito Sans', sans-serif;
+}
+
+body{
+  background: var(--main-light);
+  font-family: var(--body-font);
+  font-size: 1rem;
+  color: var(--main-blue);
+  position: relative;
+}
+
+.text-pink{
+  color: var(--main-pink);
+}
+
+.text-light{
+  color: var(--main-light);
+}
+
+.bg-blue{
+  background: var(--main-blue);
+}
+
+.behind{
+  z-index: -1;
+}

@@ -1,0 +1,77 @@
+/****** SECTION HEADER ******/
+@media (min-width: 768px) and (max-width: 991px) {
+  header{
+    margin-bottom: 2rem;
+  }
+}
+
+/****** SECTION ARTICLES ******/
+
+#articles-cards>.col:nth-last-child(1){
+  display: none;
+}
+
+@media (min-width: 768px) { 
+  #articles-cards>.col:nth-last-child(1){
+    display: flex;
+  }
+}
+
+/****** SECTION CHIFFRES ******/
+
+#section-chiffres{
+  background: var(--main-pink);
+  color: var(--main-light);
+  margin: -2px auto;
+}
+
+#section-chiffres h3{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: none;
+}
+
+#section-chiffres p{
+  font-family: var(--title-font);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (min-width: 992px) {
+
+  #section-chiffres{
+    z-index: 100;
+    margin: -50px auto;
+  }
+  
+  #section-chiffres h3{
+    font-size: 3.8rem;
+    font-weight: 700;
+    padding: none;
+  }
+  
+  #section-chiffres p{
+    font-size: 1.2rem;    
+  }
+}
+
+/****** SECTION SERVICES ******/
+
+.service-title{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/****** SECTION CONTACT ******/
+
+#section-contact{
+  background: var(--main-blue);
+  color: white;
+}
+
+/****** FOOTER ******/
+
+footer{
+  font-size: 0.9rem;
+}
+

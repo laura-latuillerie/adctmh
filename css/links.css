@@ -1,0 +1,20 @@
+a{
+  color: var(--main-blue);
+  text-decoration: none;
+}
+
+.fa-brands{
+  font-size: 2.4rem;
+}
+
+.link-pink{
+  color: var(--main-pink);
+}
+
+.link-pink:hover{
+  color: var(--main-light);
+}
+
+.link-blue:hover{
+  color: var(--main-pink);
+}

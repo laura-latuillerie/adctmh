@@ -1,0 +1,54 @@
+@keyframes rotate{
+  to{ transform: rotate(360deg); }
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+#logo-navbar{
+  height: 90px; 
+}
+
+.banner-pic{
+  max-width: 70%;
+}
+
+.icon-paw{
+  height: 40px;
+  animation: gelatine 0.5s infinite;
+}
+
+.service-icon{
+  height: 80px;
+}
+
+.contact-flower-icon{
+  height: 40px;
+  animation: rotate 5s linear infinite;
+}
+
+@media (min-width: 576px) { 
+  #logo-navbar{
+    height: 120px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 998px) { 
+  .banner-pic{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 999px) {
+  .banner-pic{
+    max-width: 100%;
+  }
+  .service-icon{
+    height: 100px;
+  }
+  
+}

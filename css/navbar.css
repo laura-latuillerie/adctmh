@@ -1,0 +1,33 @@
+/* NAVBAR */
+
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: var(--main-blue);
+  font-weight: 500;
+}
+
+.nav-link{
+  padding: 6px 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover, .nav-link:active{
+  
+  border-bottom: 2px solid var(--main-blue);
+}
+
+#logo-navbar{
+  height: 90px;
+}
+
+.navbar-nav{
+  text-align: center;
+  --bs-nav-link-padding-y: 0.6rem;
+}
+
+@media (min-width: 576px) { 
+
+  #logo-navbar{
+    height: 120px;
+  }
+
+}

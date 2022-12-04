@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>Association de Défense des Chatons Trop Mignons Handicapés</title>
+</head>
+
+<body>
+  <header class="container vh-100" id="top">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logos/handicaped-cat.svg" alt="logo acdtmh cat with eyepatch" id="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav align-items-center">
+            <a class="nav-link active" aria-current="page" href="#section-articles">Nos Actualités</a>
+            <a class="nav-link" href="#section-services">Nos Services</a>
+            <a class="nav-link" href="#section-contact">Nous Contacter</a>
+            <button type="button" class="btn btn-dark-blue mx-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Faire
+              un don <i class="fa-solid fa-hand-holding-medical"></i></button>
+            <div class="py-2">
+              <a href="https://www.facebook.com/oneheartfr/" target="_blank">
+                <i class="fa-brands link-blue fa-facebook pe-2"></i>
+              </a>
+              <a href="https://twitter.com/oneheartfr" target="_blank">
+                <i class="fa-brands link-blue fa-twitter pe-2"></i>
+              </a>
+              <a href="https://www.instagram.com/oneheart.media/" target="_blank">
+                <i class="fa-brands link-blue fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO BANNER -->
+    <section class="container" id="hero-banner">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 order-lg-1 text-center">
+          <img src="pictures/Hero-Banner-Picture.png" alt="cat on wheelchair" class="banner-pic">
+        </div>
+        <div class="col-12 col-lg-6 order-lg-0">
+          <h1 class="text-uppercase">Venons en <strong>aide</strong> aux <em>chats</em> <strong>handicapés</strong></h1>
+          <p class="subtitle lh-sm">L’<strong>Association de Défense des Chatons Trop Mignons Handicapés</strong> aide
+            chaque année plus de
+            20000 chats blessés
+            par la vie et ses épreuves. <strong>Rejoignez notre cause</strong> et participez à leur ré-insertion</p>
+            <button type="button" class="btn btn-dark-blue me-1" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Faire un
+              don <i class="fa-solid fa-hand-holding-medical"></i></button>
+            <a href="#section-articles" class="btn btn-dark-blue-outline">Nos actualités <i
+                class="fa-solid fa-cat"></i></a>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- SECTION ARTICLES -->
+    <section class="container pt-5" id="section-articles">
+      <div class="d-flex align-items-center">
+        <img src="icons/paw_icon.svg" alt="" class="icon-paw">
+        <h2 class="section-title">Nos actualités</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-4" id="articles-cards">
+        <div class="col">
+          <div class="card h-100">
+            <img src="articles_pictures/party_addictions_cats.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Comment aider mon chat à sortir de l’addiction et surveiller ses fréquentations?
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis
+                sagittis nisi auctor...</p>
+              <a href="#" class="">Lire la suite... <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <small class="text-muted">Posté par Isaac Mewton</small>
+              <small class="text-muted">Le 04/12/2022</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="articles_pictures/pirate_cat.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">La recrudescence inquiétante des chats borgnes s’engageant dans la piraterie</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis
+                sagittis nisi auctor...</p>
+              <a href="#" class="">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <small class="text-muted">Posté par Pawtunia</small>
+              <small class="text-muted">Le 28/11/2022</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="articles_pictures/cat-vs-dog-violence.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">10 signes que votre chat peut tourner sa douleur traumatique en violence
+                xénophobique</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis
+                sagittis nisi auctor...</p>
+              <a href="#" class="">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <small class="text-muted">Posté par Meowlius Caesar</small>
+              <small class="text-muted">Le 03/12/2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION CHIFFRES -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#D782BA" fill-opacity="1"
+        d="M0,160L60,165.3C120,171,240,181,360,170.7C480,160,600,128,720,128C840,128,960,160,1080,170.7C1200,181,1320,171,1380,165.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+    <section class="container-fluid" id="section-chiffres">
+      <div class="row align-items-start text-center">
+        <div class="col-6 col-md-3">
+          <h3>+36K</h3>
+          <p>chats pris en charge</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3>+1M</h3>
+          <p>d'euros récoltés en 2022</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3>+500</h3>
+          <p>bénévoles chaque année</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3 class="">+245K</h3>
+          <p>de followers sur les réseaux</p>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="position-relative behind">
+      <path fill="#D782BA" fill-opacity="1"
+        d="M0,160L60,165.3C120,171,240,181,360,170.7C480,160,600,128,720,128C840,128,960,160,1080,170.7C1200,181,1320,171,1380,165.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+      </path>
+    </svg>
+    <!-- SECTION SERVICES -->
+    <section class="container pb-5 mb-5" id="section-services">
+      <div class="d-flex align-items-center">
+        <img src="icons/paw_icon.svg" alt="" class="icon-paw">
+        <h2 class="section-title">Nos Services</h2>
+      </div>
+      <div class="row pt-5 text-center">
+        <div class="col-6 col-lg-4 mb-5 d-flex flex-column">
+          <img src="icons/kitty_pirate.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">Aide & Conseils Judiciaires</h3>
+        </div>
+        <div class="col-6 col-lg-4 d-flex flex-column">
+          <img src="icons/kitty_doctor.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">accès, aide & suivi médical</h3>
+        </div>
+        <div class="col-6 col-lg-4 d-flex flex-column">
+          <img src="icons/kitty_computer.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">Hotline Dédiée H24 et 7J/7</h3>
+        </div>
+        <div class="col-6 col-lg-4 mb-3 d-flex flex-column">
+          <img src="icons/kitty_disco_party_outlined.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">Activités et événements</h3>
+        </div>
+        <div class="col-6 col-lg-4 d-flex flex-column">
+          <img src="icons/kitty_addicted_coffee.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">lutte contre les addictions</h3>
+        </div>
+        <div class="col-6 col-lg-4 d-flex flex-column">
+          <img src="icons/kitty_sport_outline.svg" alt="" class="service-icon">
+          <h3 class="service-title mt-3">Conseils sportifs adaptés</h3>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION CONTACT -->
+    <section class="container-fluid py-5" id="section-contact">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <img src="icons/white-paw-icon.svg" alt="" class="icon-paw">
+          <h2 class="section-title">Nous aider</h2>
+        </div>
+        <div class="row g-3 pb-3">
+          <div class="col-12 col-md-6 text-center">
+            <img src="pictures/cat-ribbon-wheels.png" alt="" class="w-75">
+          </div>
+          <!-- NOUS CONTACT -->
+          <div class="col-12 col-md-6 pt-3">
+            <div class="d-flex align-items-center mb-3">
+              <img src="icons/flower_icon.svg" alt="" class="contact-flower-icon">
+              <h4 class="ms-2 mb-0 text-uppercase fs-5">Nous contacter</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis sagittis nisi auctor.
+            </p>
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mon message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-pink">Envoyer mon message</button>
+            </form>
+          </div>
+          <!-- FAIRE UN DON -->
+          <div class="col-12 col-md-6 pt-3">
+            <div class="d-flex align-items-center mb-3">
+              <img src="icons/flower_icon.svg" alt="" class="contact-flower-icon">
+              <h4 class="ms-2 mb-0 text-uppercase fs-5">Faire un don</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis sagittis nisi auctor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis sagittis nisi auctor.
+            </p>
+            <button type="button" class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#exampleModal">Faire un
+              don <i class="fa-solid fa-hand-holding-medical"></i></button>
+            <!-- MODAL DONATION -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header text-white">
+                    <h2 class="modal-title fs-6" id="exampleModalLabel">Nous vous remercions</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <!-- Modal Payment Form -->
+                    <form>
+                      <div class="row">
+                        <div class="col-12 col-lg-4">
+                          <label for="quantity" class="mb-3">Montant</label>
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i
+                                class="fa-solid fa-euro-sign"></i></span>
+                            <input type="number" class="form-control" id="quantity" name="quantity" min="5" max="500000"
+                              aria-label="quantity" aria-describedby="basic-addon1" placeholder="20,00">
+                          </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                          <p>Moyen de paiement</p>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                              value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i
+                                class="fa-brands fa-paypal"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                              value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i
+                                class="fa-brands fa-cc-visa"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                              value="option3">
+                            <label class="form-check-label" for="inlineRadio3"><i
+                                class="fa-brands fa-cc-mastercard"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                              value="option4">
+                            <label class="form-check-label" for="inlineRadio4"><i
+                                class="fa-brands fa-cc-apple-pay"></i></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="my-3">
+                        <label for="exampleFormControlInput1" class="form-label">Votre nom complet</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                          placeholder="Hairy Pawter">
+                      </div>
+                      <label for="card-number" class="form-label">Vos informations de paiement</label>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i
+                            class="fa-regular fa-credit-card"></i></span>
+                        <input type="text" class="form-control" placeholder="4534 XXXX XXXX XXXX"
+                          aria-label="card-number" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="row">
+                        <div class="col-7">
+                          <label for="expiration date" class="form-label">Date d'expiration</label>
+                          <input type="text" class="form-control" placeholder="09/24" aria-label="expiration-date">
+                        </div>
+                        <div class="col-5">
+                          <label for="ccv" class="form-label">Code CCV</label>
+                          <input type="text" class="form-control" placeholder="XXX" aria-label="ccv">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer mt-3">
+                    <button type="button" class="btn btn-dark-blue-outline" data-bs-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-dark-blue" data-bs-dismiss="modal">Envoyer mon don</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NOUS SUIVRE -->
+          <div class="col-12 col-md-6 pt-3">
+            <div class="d-flex align-items-center mb-3">
+              <img src="icons/flower_icon.svg" alt="" class="contact-flower-icon">
+              <h4 class="ms-2 mb-0 text-uppercase fs-5">Nous suivre sur les réseaux</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet libero felis sagittis nisi auctor.
+            </p>
+            <div class="py-2">
+              <a href="https://www.facebook.com/oneheartfr/" target="_blank">
+                <i class="fa-brands link-pink fa-facebook pe-2"></i>
+              </a>
+              <a href="https://twitter.com/oneheartfr" target="_blank">
+                <i class="fa-brands link-pink fa-twitter pe-2"></i>
+              </a>
+              <a href="https://www.instagram.com/oneheart.media/" target="_blank">
+                <i class="fa-brands link-pink fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="btn-top">
+      <a href="#top" class="link-blue"><i class="fa-solid fa-arrow-up fs-1"></i></a>
+    </div>
+  </main>
+  <footer class="text-center bg-blue">
+    <div class="container border-top py-3">
+      <p class="text-uppercase text-light mb-0">Made with care by <a href="https://laura-latuillerie.com"
+          target="_blank" class="link-light">Laura Latuillerie</a><br>for <a href="https://www.oneheartcommunication.com/"
+          target="_blank" class="link-light">One Heart Communication</a>
+      </p>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper (Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

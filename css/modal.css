@@ -1,0 +1,11 @@
+.modal-content{
+  color: var(--main-blue);
+}
+
+.modal-header, .modal-footer{
+  background: var(--main-pink);
+}
+
+label>.fa-brands{
+  font-size: 1.8rem;
+}
